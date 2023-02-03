@@ -1,4 +1,4 @@
-import { Category } from '@/types';
+import { Category } from 'interface/categories';
 
 export const categories: Category[] = [
   {
@@ -24,6 +24,6 @@ export const categories: Category[] = [
   {
     id: '5',
     title: 'Mens',
-    imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
   },
 ];

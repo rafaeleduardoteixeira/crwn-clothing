@@ -1,38 +1,24 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
-    },
-    "import/resolver": {
-      "typescript": {},
-      "aliases": {
-        "map": [["@/", "./src"]]
-      }
-    }
+    "es2021": true,
+    "node": true,
+    "jest": true
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "react",
-    "prettier",
-    "eslint-plugin-import-helpers",
-    "@typescript-eslint"
-  ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
+  "plugins": ["react", "@typescript-eslint", "prettier"],
   "parserOptions": {
     "ecmaFeatures": {
         "jsx": true
     },
     "ecmaVersion": 2020,
-    "sourceType": "script"
+    "sourceType": "module"
   },
   "rules": {
     "react/prop-types": "off",
