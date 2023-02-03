@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul{
+  padding: 0;
+  list-style: none
+}
+
+a { text-decoration: none; }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
