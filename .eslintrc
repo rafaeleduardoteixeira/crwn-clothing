@@ -6,6 +6,12 @@
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "import/resolver": {
+      "typescript": {},
+      "aliases": {
+        "map": [["@/", "./src"]]
+      }
     }
   },
   "parser": "@typescript-eslint/parser",
@@ -42,5 +48,4 @@
     ],
     "sort-imports": "off"
   }
-
 }
