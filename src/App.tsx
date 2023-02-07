@@ -1,11 +1,12 @@
+// Styles
 // Components
-import Category from 'components/category/category';
+import Home from 'components/routes/home/home';
 
 // Styles
 import './App.scss';
 
 function App() {
-  return <Category />;
+  return <Home />;
 }
 
 export default App;
