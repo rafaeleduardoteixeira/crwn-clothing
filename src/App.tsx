@@ -1,11 +1,20 @@
+import { Routes, Route } from 'react-router-dom';
+
 // Components
-import Category from 'components/category/category';
+import Home from 'components/routes/home/home';
+import Navigation from 'components/navigation/navigation';
 
 // Styles
 import './App.scss';
 
 function App() {
-  return <Category />;
+  return (
+    <Routes>
+      <Route path="/" element={<Navigation />}>
+        <Route index element={<Home />} />
+      </Route>
+    </Routes>
+  );
 }
 
 export default App;
